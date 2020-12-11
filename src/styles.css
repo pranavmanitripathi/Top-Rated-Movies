@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital@1&display=swap");
+.App {
+  font-family: "Fira Sans", sans-serif;
+  text-align: center;
+}
+body {
+  background-color: black;
+}
+h1 {
+  color: yellow;
+}
+h2 {
+  color: brown;
+  padding: 1rem;
+}
+button {
+  padding: 0.5rem 1rem;
+  margin: 1rem;
+  border-radius: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+button:hover {
+  background-color: skyblue;
+}
+ul {
+  color: white;
+  list-style: none;
+  padding: 1rem;
+  margin: auto;
+  width: 50%;
+}
+li {
+  border: 1px solid black;
+  border-radius: 0.5rem;
+  padding: 1rem 1rem;
+  text-align: center;
+  background-color: skyblue;
+}
+div {
+  color: black;
+  padding: 0.5rem;
+  font-weight: 700;
+}
